@@ -24,7 +24,7 @@ snake, calculates sensor data
 `subprocess` – creates a process, opens the plotting script, saves the plot to a file  
 
 <b>Algorithm:</b>  
-Each snake is a perceptron with 2 hidden layers, 1 input sensors layer and 1 direction layer.  
+Each snake is the weights for perceptron with 2 hidden layers, 1 input sensors layer and 1 direction layer.  
 Stages:  
 - several families are formed from a large number of snakes with random weights (10.000-100.000)
 - selection of snakes with the best results
